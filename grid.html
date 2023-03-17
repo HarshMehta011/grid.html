@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        * { box-sizing: border-box;}
+          .header
+          {
+            height: 150px;
+            background-color: greenyellow;
+            display: grid;
+            grid-template-columns: tfr 8fr;
+
+          }
+
+          .x,.y,.z
+          {
+            border: 2px solid;
+          }
+
+          .navi
+          {
+            height: 50px;
+            background-color: yellow;
+          }
+
+          .content
+          {
+            height: 350px;
+            background-color: brown;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+          }
+
+          .test
+          {display: grid;}
+
+          .footer
+          {
+            height: 150px;
+            background-color: aqua;
+          }
+
+          .test1
+          {
+            display: grid;
+            grid-template-columns: 12fr;
+          }
+
+          .content
+          {
+            grid-template-columns: 1fr 1fr;
+          }.test1{
+            grid-template-columns: 1fr;
+          }
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo x">logo</div>
+        <div class="cname x">company name</div>    
+        </div>
+
+        <div class="navi">nav<nav</div>
+
+        <div class="content">
+            <div class="x"></div>
+
+            <div class="x test">
+
+                <div class="y test1">
+                    <div class="a">a1</div>
+                    <div class="a">a2</div>
+                    <div class="a">a3</div>
+
+                </div>
+            </div>
+
+            <div class="y">y2</div>
+        </div>
+
+        <div class="x"></div>
+        <div class="x"></div>
+
+    </div>
+
+    <div class="footer">footer</div>
+</body>
+</html>
